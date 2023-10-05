@@ -2,8 +2,8 @@
   display: flex;
   gap: 20px;
 
-  padding: 18px;
-  border-radius: 16px;
+  padding: 18px 30px;
+  border-radius: 1px;
   background-color: #fff;
 
   width: max-content;
