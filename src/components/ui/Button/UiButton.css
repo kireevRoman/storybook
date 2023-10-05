@@ -1,0 +1,45 @@
+.ui-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  line-height: 1;
+  border-width: 1px;
+}
+.ui-button:hover {
+  opacity: 0.6;
+  }
+
+.ui-button--small {
+  font-size: 12px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.ui-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+  border-radius: 12px;
+}
+.ui-button--large {
+  font-size: 18px;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+
+.ui-button--default {
+  color: #0f0f0f;
+  border-color: #0f0f0f;
+  background-color: transparent;
+}
+.ui-button--primary {
+  color: white;
+  background-color: #1ea7fd;
+  border-color: transparent;
+}
+.ui-button--text {
+  color: #1ea7fd;
+  border: 0;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  border: 0;
+}

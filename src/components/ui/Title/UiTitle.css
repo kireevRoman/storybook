@@ -1,0 +1,17 @@
+.ui-title {
+  font-weight: 800;
+}
+
+.ui-title--h1 {
+  font-size: 32px;
+}
+.ui-title--h2 {
+  font-size: 24px;
+}
+.ui-title--h3 {
+  font-size: 18px;
+}
+.ui-title--h4 {
+  font-size: 14px;
+}
+

@@ -1,0 +1,22 @@
+.ui-text {
+  display: inline-flex;
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.ui-text--small {
+  font-size: 14px;
+}
+.ui-text--medium {
+  font-size: 20px;
+}
+.ui-text--large {
+  font-size: 28px;
+}
+
+.ui-text--underline {
+  text-decoration: underline;
+}
+.ui-text--through {
+  text-decoration: line-through;
+}

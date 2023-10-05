@@ -1,0 +1,11 @@
+.ui-avatar {
+    display: inline-flex;
+    min-height: 80px;
+    min-width: 80px;
+
+    background-image: url('https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}

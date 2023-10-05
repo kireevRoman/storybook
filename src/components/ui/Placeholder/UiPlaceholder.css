@@ -1,0 +1,28 @@
+.ui-placeholder {
+  display: inline-flex;
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.ui-placeholder--animation{
+  overflow: hidden;
+  background: #D0D0D0;
+}
+
+.ui-placeholder--animation::before{
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  animation: loading 1s infinite;
+  background: linear-gradient(to right, transparent,#D9D9D9,transparent);
+}
+
+@keyframes loading {
+  0%{
+      transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(100%);
+  }
+}
