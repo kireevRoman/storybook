@@ -2,9 +2,9 @@
   display: flex;
   gap: 20px;
 
-  padding: 24px;
-  border-radius: 20px;
-  background-color: #fff;
+  padding: 20px;
+  border-radius: 18px;
+  background-color: #f1e2e2;
 
   width: max-content;
   position: relative;
