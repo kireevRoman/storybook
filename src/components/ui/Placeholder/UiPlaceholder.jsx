@@ -4,11 +4,12 @@ import './UiPlaceholder.css'
 
 export const UiPlaceholder = ({ width, height, borderRadius, ...props }) => {
   const style = {
-    ...props.style,
-    width: width + 'px',
-    height: height + 'px',
-    borderRadius: borderRadius + 'px',
+    width: width,
+    height: height,
+    borderRadius: borderRadius,
   }
+
+  console.log(style)
 
   return <span className={['ui-placeholder', 'ui-placeholder--animation'].join(' ')} style={style} {...props}></span>
 }

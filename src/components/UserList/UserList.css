@@ -1,0 +1,10 @@
+.list-user--items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 20px;
+  background-color: #fff;
+
+  width: 500px;
+}

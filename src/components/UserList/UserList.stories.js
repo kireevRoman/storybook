@@ -12,9 +12,9 @@ export const Default = {
     users: [
       { ...UserCardStories.CardLine.args, id: 1, username: 'Иванов Иван', description: 'Директор' },
       { ...UserCardStories.CardLine.args, id: 2, username: 'Петров Петр', description: 'Бухгалтер' },
-      { ...UserCardStories.CardLine.args, id: 3, username: 'Сидоров Сидор', description: 'Секретарь' },
+      { ...UserCardStories.CardLine.args, id: 3, username: 'Сидоров Максим', description: 'Секретарь' },
       { ...UserCardStories.CardLine.args, id: 4, username: 'Дмитриев Дмитрий', description: 'Главный' },
-      { ...UserCardStories.CardLine.args, id: 5, username: 'Иванов Иванчик', description: 'Главный работник' },
+      { ...UserCardStories.CardLine.args, id: 5, username: 'Иванова Татьяна', description: 'Главный работник' },
     ],
   },
 }
